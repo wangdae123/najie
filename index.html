@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;          /* 去除默认边距 */
+            height: 100vh;     /* 撑满整个视口高度 */
+            display: flex;      /* 启用弹性布局 */
+            justify-content: center;  /* 水平居中 */
+            align-items: center;      /* 垂直居中 */
+            background: #000;   /* 备用背景色（图片加载前的底色） */
+        }
+        img {
+            max-width: 100%;   /* 图片宽度不超过屏幕 */
+            max-height: 100%;  /* 图片高度不超过屏幕 */
+            object-fit: contain; /* 保持比例完整显示 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 替换为你的实际文件名 -->
+    <img src="liyuena.jpg" alt="My Image">
+</body>
+</html>
